@@ -129,6 +129,7 @@ const ReusableTable: React.FC<ReusableTableTypes> = ({
         >
           {'<'}
         </button>
+        <div style={{ width: '0.5rem' }} />
         <span
           className={`simple-table-pag-span1 ${simpleTablePageSpan1ClassName}`}
         >
