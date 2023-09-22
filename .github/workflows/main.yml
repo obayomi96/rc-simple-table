@@ -22,7 +22,7 @@ jobs:
       - name: Install deps and build (with cache)
         with:
           node-version: 16
-        uses: bahmutov/npm-install@v1
+        uses: bahmutov/npm-install@latest
 
       - name: Lint
         run: yarn lint
