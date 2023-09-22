@@ -135,7 +135,9 @@ const ReusableTable: React.FC<ReusableTableTypes> = ({
         >
           {pageIndex + 1}
         </span>
-        of{' '}
+        <div style={{ width: '0.5rem' }} />
+        of
+        <div style={{ width: '0.5rem' }} />
         <span
           className={`simple-table-pag-span2 ${simpleTablePageSpan2ClassName}`}
         >
