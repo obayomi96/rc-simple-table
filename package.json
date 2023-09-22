@@ -1,5 +1,5 @@
 {
-  "version": "0.1.4",
+  "version": "0.1.5",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -7,6 +7,9 @@
     "dist",
     "src"
   ],
+  "engines": {
+    "node": ">=20"
+  },
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build && uglifycss src/css/styles.css > dist/styles.css",
