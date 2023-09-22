@@ -2,6 +2,8 @@
 
 Simple searchable & reusable table component created with React & react-table
 
+<img width="1134" alt="Screenshot 2023-09-22 at 18 15 16" src="https://github.com/obayomi96/rc-simple-table/assets/43539944/69e5ba11-958d-45d1-9a3d-e44bfc3b0ea7">
+
 ## Installation
 
 `npm install rc-simple-table`
