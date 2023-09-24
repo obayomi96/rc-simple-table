@@ -1,5 +1,5 @@
 {
-  "version": "0.2.1",
+  "version": "0.2.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -9,6 +9,17 @@
   ],
   "engines": {
     "node": "*"
+  },
+  "keywords": [
+    "react",
+    "table",
+    "search",
+    "pagination",
+    "filter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obayomi96/rc-simple-table.git"
   },
   "scripts": {
     "start": "tsdx watch",
