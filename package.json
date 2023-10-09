@@ -1,5 +1,5 @@
 {
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -47,7 +47,7 @@
     "trailingComma": "es5"
   },
   "name": "rc-simple-table",
-  "author": "obayomi96",
+  "author": "Martins Obayomi",
   "description": "Simple reusable table component created with React & react-table",
   "module": "dist/rc-simple-table.esm.js",
   "size-limit": [
