@@ -48,13 +48,13 @@ or add to your CSS file
 
 ## COLUMN
 
-The `Column` type is needed only for Typescript projects in place of type `any`
+You non need to import the `Column` for Typescript projects.
 
-- A `Column` is used to mirrow your table head, describe how each table column data would be transformed and returned, it connects the table column to it's data using the `accessor` field which MUST collerate with the `key` for that field data, table head should have the following properties; `Header`, `accessor` which are required, and an optional `Cell` field.
+- `column` is used to mirrow your table head, describe how each table column data would be transformed and returned, it connects the table column to it's data using the `accessor` field which MUST collerate with the `key` for that field data, table columns should have the following properties; `Header`, `accessor` which are required, and an optional `Cell` field.
 
 * `Header: string;` - This is a string for a table head in a column.
 * `accessor: string;` - This looks for the provided string that matches any field in your data array and pull the value for that field.
-* `Cell?:` is optional, it takes a callback function that returnes a `string`|`React.Component`|`React.JSX`. It can can be used to modify the output of the data for a column; the cell gives us two parameters, value and row. value returns the data for each column, row returns data for all columns by accessing it through `row.original`
+* `Cell?` is optional, it takes a callback function that returnes a `string`|`React.Component`|`React.JSX`. It can can be used to modify the output of the data for a column; the cell gives us two parameters, `value` and `row`. value returns the data for each column, row returns data for all columns by accessing it through the `row.original` field
   E.g for conditional rendering or custom component rendering like an action button. See examples below.
 
 ## Column interface
