@@ -29,8 +29,8 @@ or add to your CSS file
 ### Example use case (Typescript)
 
 ```
-- Import Column, { ReusableTable } from "rc-simple-table"
-- import 'rc-simple-table/dist/styles.css' // required
+Import Column, { ReusableTable } from "rc-simple-table"
+import 'rc-simple-table/dist/styles.css' // required
 
  <ReusableTable
   tableColumns={TEST_COLUMNS}
@@ -48,7 +48,7 @@ or add to your CSS file
 
 ## COLUMN
 
-You non need to import the `Column` for Typescript projects.
+You only need to import `Column` for Typescript projects.
 
 - `column` is used to mirrow your table head, describe how each table column data would be transformed and returned, it connects the table column to it's data using the `accessor` field which MUST collerate with the `key` for that field data, table columns should have the following properties; `Header`, `accessor` which are required, and an optional `Cell` field.
 
